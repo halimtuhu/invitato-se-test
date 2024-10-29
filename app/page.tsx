@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div>
@@ -73,7 +71,7 @@ export default function Home() {
           <div className="text-center font-bold text-3xl tracking-wider font-old-standard">
             Welcome to
             <br />
-            Tiffany & Jared's
+            {"Tiffany & Jared's"}
             <br />
             Wedding Website
           </div>

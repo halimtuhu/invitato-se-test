@@ -8,11 +8,13 @@ const poppins = Poppins({
 });
 
 const newsreader = Newsreader({
+  subsets: ['latin'],
   variable: "--font-newsreader",
   weight: ["200", "300", "400", "500", "600", "700", "800"],
 });
 
 const oldStandardTT = Old_Standard_TT({
+  subsets: ["latin"],
   variable: "--font-old-standard",
   weight: ["400", "700"],
 });
