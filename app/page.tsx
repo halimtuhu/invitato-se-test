@@ -1,9 +1,32 @@
 export default function Home() {
   return (
-    <div>
-      <main>
+    <div className="relative flex items-stretch">
+      <main
+        className="hidden z-10 sticky h-screen top-0 left-0 p-12 sm:flex flex-col items-stretch gap-8 w-full"
+        style={{
+          backgroundImage:
+            'url("https://ik.imagekit.io/drpq5xrph/Template%20Tiffany%20&%20Jared/Desktop.jpg?updatedAt=1698223781539")',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="relative uppercase font-bold tracking-wider">
+          Wedding Announcement
+        </div>
+        <div className="relative text-7xl uppercase font-old-standard">
+          Tiffany &<br />
+          Jared
+        </div>
+        <div className="relative font-newsreader italic max-w-4xl">
+          {
+            '"Aku ingin mencintaimu dengan sederhana; dengan kata yang tak sempat diucapkan kayu kepada api yang menjadikannya abu. Aku ingin mencintaimu dengan sederhana; dengan isyarat yang tak sempat disampaikan awan kepada hujan yang menjadikannya tiada."'
+          }
+          <br />— Sapardi Djoko Damono
+        </div>
+        <div className="h-full bg-black/50 absolute right-0 top-0 bottom-0 w-2"></div>
+      </main>
+      <main className="w-full max-w-lg">
         <section
-          className="h-screen w-full bg-orange-500 flex flex-col items-center justify-around bg-cover relative"
+          className="h-screen w-full bg-orange-500 flex flex-col items-center justify-around bg-cover bg-center relative"
           style={{
             backgroundImage:
               'url("https://ik.imagekit.io/drpq5xrph/Template%20Tiffany%20&%20Jared/1.%20Cover.jpg?updatedAt=1698222296920")',
